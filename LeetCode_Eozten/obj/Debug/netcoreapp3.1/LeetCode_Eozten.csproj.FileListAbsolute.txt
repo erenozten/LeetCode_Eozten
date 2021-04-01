@@ -1,0 +1,13 @@
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.csprojAssemblyReference.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.AssemblyInfoInputs.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.AssemblyInfo.cs
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.csproj.CoreCompileInputs.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.exe
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.deps.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.runtimeconfig.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.runtimeconfig.dev.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.dll
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\bin\Debug\netcoreapp3.1\LeetCode_Eozten.pdb
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.dll
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.pdb
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\LeetCode_Eozten\obj\Debug\netcoreapp3.1\LeetCode_Eozten.genruntimeconfig.cache
