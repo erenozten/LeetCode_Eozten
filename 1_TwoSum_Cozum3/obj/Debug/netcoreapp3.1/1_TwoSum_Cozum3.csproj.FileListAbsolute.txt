@@ -1,0 +1,13 @@
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.csprojAssemblyReference.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.AssemblyInfoInputs.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.AssemblyInfo.cs
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.csproj.CoreCompileInputs.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.exe
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.deps.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.runtimeconfig.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.runtimeconfig.dev.json
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.dll
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\bin\Debug\netcoreapp3.1\1_TwoSum_Cozum3.pdb
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.dll
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.pdb
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_TwoSum_Cozum3\obj\Debug\netcoreapp3.1\1_TwoSum_Cozum3.genruntimeconfig.cache
