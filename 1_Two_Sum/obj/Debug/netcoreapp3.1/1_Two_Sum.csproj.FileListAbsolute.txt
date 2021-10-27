@@ -10,3 +10,4 @@ C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_Two_Sum\obj\Debug\netcoreap
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_Two_Sum\obj\Debug\netcoreapp3.1\1_Two_Sum.dll
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_Two_Sum\obj\Debug\netcoreapp3.1\1_Two_Sum.pdb
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_Two_Sum\obj\Debug\netcoreapp3.1\1_Two_Sum.genruntimeconfig.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\1_Two_Sum\obj\Debug\netcoreapp3.1\1_Two_Sum.csproj.AssemblyReference.cache
