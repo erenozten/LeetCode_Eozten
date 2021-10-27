@@ -131,3 +131,10 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+1_Two_Sum/obj/Debug/netcoreapp3.1/1_Two_Sum.pdb
+1_Two_Sum/obj/Debug/netcoreapp3.1/1_Two_Sum.dll
+1_Two_Sum/obj/Debug/netcoreapp3.1/1_Two_Sum.csproj.FileListAbsolute.txt
+1_Two_Sum/bin/Debug/netcoreapp3.1/1_Two_Sum.pdb
+1_Two_Sum/bin/Debug/netcoreapp3.1/1_Two_Sum.exe
+1_Two_Sum/bin/Debug/netcoreapp3.1/1_Two_Sum.dll
+.vs/LeetCode_Eozten/v16/.suo
