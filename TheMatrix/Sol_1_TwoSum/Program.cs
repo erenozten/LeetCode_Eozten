@@ -18,13 +18,17 @@ Input: nums = [3,2,4], target = 6
 Output: [1,2]
  */
 
+// You may see this problem at Amazon, Autodesk, Vmware, Adobe, Paypal, Snap, Intercom, Tesla, Rubrik, Segment, Automattic, Grammarly, Intel, and Coupa.
 
 
-/*
+
+
+
+
 
 // https://leetcode.com/problems/two-sum/
 
-// Kaçıncı çözüm: 1
+// Yeni Çözüm
 // Sen mi yaptın: Evet
 // Çözüm başarılı mı: Evet
 // Yardım alarak mı yaptın: Hayır
@@ -33,75 +37,21 @@ Output: [1,2]
 // Runtime: 220 ms, faster than 79.02% of C# online submissions for Two Sum.
 // Memory Usage: 42.4 MB, less than 8.36% of C# online submissions for Two Sum.
 
+/*
 using System;
-
-namespace _1_Two_Sum
+namespace Sol_1_TwoSum
 {
-    class Solution
+    public class Solution
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("1_Two_Sum");
 
             int[] arr = { 5, 9, 9, 9, 1 };
             int target = 10;
 
-
             Solution solution = new Solution();
             var result = solution.TwoSum(arr, target);
-
-        }
-
-        int[] TwoSum(int[] numbers, int target)
-        {
-            for (int i = 0; i <= numbers.Length; i++)
-            {
-                for (int j = 0; j < numbers.Length; j++)
-                {
-                    if (numbers[i] + numbers[j] == target)
-                    {
-                        if (i != j)
-                        {
-                            int[] returnArr = new int[2] { i, j };
-                            return returnArr;
-                        }
-                    }
-                }
-            }
-
-            return null;
-        }
-    }
-*/
-
-
-
-
-// https://leetcode.com/problems/two-sum/
-
-// Kaçıncı çözüm: 2
-// Sen mi yaptın: Hayır
-
-using System;
-
-namespace Sol_1_TwoSum
-{
-    public class Solution
-
-    {
-        static void Main()
-        {
-            Console.WriteLine("1_Two_Sum");
-
-            int[] arr = { 5, 3, 4, 2, 1, 0, 9 };
-            int target = 10;
-
-
-
-
-            Solution solution = new Solution();
-            var result = solution.TwoSum(arr, target);
-
         }
 
         public int[] TwoSum(int[] numbers, int target)
@@ -114,91 +64,188 @@ namespace Sol_1_TwoSum
                     {
                         if (i != j)
                         {
-                            int[] returnArr = new int[2] { i, j };
-                            return returnArr;
+                            //int[] returnArr = new int[2] { i, j };
+                            //return new[] { i, j };
+
+                            return new[] { i, j };
                         }
                     }
                 }
             }
-
             return null;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //class Program
-    //{
-    //    static void Main()
-    //    {
-
-    //        int[] sampleArray = { 1, 7, 5, 3, 8, 9 };
-    //        int target = 17;
-
-    //        var watch = System.Diagnostics.Stopwatch.StartNew();
-
-    //        Program program = new Program();
-    //        int[] result = program.TwoSum(sampleArray, target);
-
-    //        watch.Stop();
-    //        var elapsedMs = watch.ElapsedMilliseconds;
-    //        Console.WriteLine(elapsedMs);
-    //    }
-
-    //    public int[] TwoSum(int[] nums, int target)
-    //    {
-    //        //Input:    nums = [2, 7, 11, 15, 7], target = 14
-    //        //Output:          [0,1]
-
-    //        for (int i = 0; i < nums.Length; i++)
-    //        {
-    //            for (int j = 0; j < nums.Length; j++)
-    //            {
-    //                if (i == j)
-    //                {
-    //                    continue;
-    //                }
-
-    //                if (nums[i] + nums[j] == target)
-    //                {
-    //                    var result = new[] { i, j };
-    //                    //var result = new int[] { i, j };
-
-    //                    return result;
-    //                }
-    //            }
-    //        }
-    //        return new int[] { 0, 0 };
-    //    }
-    //}
 }
+*/
+
+
+
+
+// Yeni Çözüm
+// Sen mi yaptın: Evet
+// Çözüm başarılı mı: Evet
+// Yardım alarak mı yaptın: Hayır
+// Çözümün performanslı mı çalışıyor: Hayır (sitede yazan sonuca göre: diğerlerinden %79 daha hızlı)
+// Notlar: Yaptığım ilk çözümden farkı: gereksiz parantezlerin silinmesi.
+
+using System;
+namespace Sol_1_TwoSum
+{
+    public class Solution
+    {
+        public static void Main()
+        {
+            Console.WriteLine("1_Two_Sum");
+
+            int[] arr = { 5, 7, 7, 9, 5, 8 };
+            int target = 17;
+
+            Solution solution = new Solution();
+            var result = solution.TwoSum(arr, target);
+        }
+
+        public int[] TwoSum(int[] numbers, int target)
+        {
+            for (int i = 0; i <= numbers.Length; i++)
+                for (int j = 0; j < numbers.Length; j++)
+                    if (numbers[i] + numbers[j] == target)
+                        if (i != j)
+                            return new[] { i, j };
+            return null;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+// https://leetcode.com/problems/two-sum/
+
+// Yeni Çözüm
+// Sen mi yaptın: Hayır
+
+//using System;
+
+//namespace Sol_1_TwoSum
+//{
+//    public class Solution
+
+//    {
+//        static void Main()
+//        {
+//            Console.WriteLine("1_Two_Sum");
+
+//            int[] arr = { 5, 3, 4, 2, 1, 0, 9 };
+//            int target = 10;
+
+
+
+
+//            Solution solution = new Solution();
+//            var result = solution.TwoSum(arr, target);
+
+//        }
+
+//        public int[] TwoSum(int[] numbers, int target)
+//        {
+//            for (int i = 0; i <= numbers.Length; i++)
+//            {
+//                for (int j = 0; j < numbers.Length; j++)
+//                {
+//                    if (numbers[i] + numbers[j] == target)
+//                    {
+//                        if (i != j)
+//                        {
+//                            int[] returnArr = new int[2] { i, j };
+//                            return returnArr;
+//                        }
+//                    }
+//                }
+//            }
+
+//            return null;
+//        }
+//    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    //class Program
+//    //{
+//    //    static void Main()
+//    //    {
+
+//    //        int[] sampleArray = { 1, 7, 5, 3, 8, 9 };
+//    //        int target = 17;
+
+//    //        var watch = System.Diagnostics.Stopwatch.StartNew();
+
+//    //        Program program = new Program();
+//    //        int[] result = program.TwoSum(sampleArray, target);
+
+//    //        watch.Stop();
+//    //        var elapsedMs = watch.ElapsedMilliseconds;
+//    //        Console.WriteLine(elapsedMs);
+//    //    }
+
+//    //    public int[] TwoSum(int[] nums, int target)
+//    //    {
+//    //        //Input:    nums = [2, 7, 11, 15, 7], target = 14
+//    //        //Output:          [0,1]
+
+//    //        for (int i = 0; i < nums.Length; i++)
+//    //        {
+//    //            for (int j = 0; j < nums.Length; j++)
+//    //            {
+//    //                if (i == j)
+//    //                {
+//    //                    continue;
+//    //                }
+
+//    //                if (nums[i] + nums[j] == target)
+//    //                {
+//    //                    var result = new[] { i, j };
+//    //                    //var result = new int[] { i, j };
+
+//    //                    return result;
+//    //                }
+//    //            }
+//    //        }
+//    //        return new int[] { 0, 0 };
+//    //    }
+//    //}
+//}
 
 
 
