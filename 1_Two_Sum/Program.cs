@@ -1,18 +1,128 @@
-﻿//Çözüm 1
-// kendi yaptığım çözüm. 
+﻿/*
+ Given an array of integers nums and an integer target, 
+return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, 
+and you may not use the same element twice.
+
+You can return the answer in any order. 
+
+Example 1:
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+Example 2:
+
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+ */
+
+
+
+/*
+
+// https://leetcode.com/problems/two-sum/
+
+// Kaçıncı çözüm: 1
+// Sen mi yaptın: Evet
+// Çözüm başarılı mı: Evet
+// Yardım alarak mı yaptın: Hayır
+// Çözümün performanslı mı çalışıyor: Hayır (sitede yazan sonuca göre: diğerlerinden %79 daha hızlı)
+
+// Runtime: 220 ms, faster than 79.02% of C# online submissions for Two Sum.
+// Memory Usage: 42.4 MB, less than 8.36% of C# online submissions for Two Sum.
 
 using System;
 
-namespace Test
+namespace _1_Two_Sum
 {
-    class Test
+    class Solution
     {
         static void Main()
         {
-            Console.WriteLine("ssss");
+            Console.WriteLine("1_Two_Sum");
+
+            int[] arr = { 5, 9, 9, 9, 1 };
+            int target = 10;
+
+
+            Solution solution = new Solution();
+            var result = solution.TwoSum(arr, target);
+
+        }
+
+        int[] TwoSum(int[] numbers, int target)
+        {
+            for (int i = 0; i <= numbers.Length; i++)
+            {
+                for (int j = 0; j < numbers.Length; j++)
+                {
+                    if (numbers[i] + numbers[j] == target)
+                    {
+                        if (i != j)
+                        {
+                            int[] returnArr = new int[2] { i, j };
+                            return returnArr;
+                        }
+                    }
+                }
+            }
+
+            return null;
         }
     }
-}
+*/
+
+
+
+
+// https://leetcode.com/problems/two-sum/
+
+// Kaçıncı çözüm: 2
+// Sen mi yaptın: Hayır
+
+using System;
+
+    namespace _1_Two_Sum
+    {
+        public class Solution
+        {
+            static void Main()
+            {
+                Console.WriteLine("1_Two_Sum");
+
+                int[] arr = {5, 3, 4, 2, 1, 0, 9};
+                int target = 10;
+
+
+
+
+                Solution solution = new Solution();
+                var result = solution.TwoSum(arr, target);
+
+            }
+
+            public int[] TwoSum(int[] numbers, int target)
+            {
+                for (int i = 0; i <= numbers.Length; i++)
+                {
+                    for (int j = 0; j < numbers.Length; j++)
+                    {
+                        if (numbers[i] + numbers[j] == target)
+                        {
+                            if (i != j)
+                            {
+                                int[] returnArr = new int[2] { i, j };
+                                return returnArr;
+                            }
+                        }
+                    }
+                }
+
+                return null;
+            }
+        }
 
 
 
@@ -43,53 +153,51 @@ namespace Test
 
 
 
+        //class Program
+        //{
+        //    static void Main()
+        //    {
 
+        //        int[] sampleArray = { 1, 7, 5, 3, 8, 9 };
+        //        int target = 17;
 
-//class Program
-    //{
-    //    static void Main()
-    //    {
+        //        var watch = System.Diagnostics.Stopwatch.StartNew();
 
-    //        int[] sampleArray = { 1, 7, 5, 3, 8, 9 };
-    //        int target = 17;
+        //        Program program = new Program();
+        //        int[] result = program.TwoSum(sampleArray, target);
 
-    //        var watch = System.Diagnostics.Stopwatch.StartNew();
+        //        watch.Stop();
+        //        var elapsedMs = watch.ElapsedMilliseconds;
+        //        Console.WriteLine(elapsedMs);
+        //    }
 
-    //        Program program = new Program();
-    //        int[] result = program.TwoSum(sampleArray, target);
+        //    public int[] TwoSum(int[] nums, int target)
+        //    {
+        //        //Input:    nums = [2, 7, 11, 15, 7], target = 14
+        //        //Output:          [0,1]
 
-    //        watch.Stop();
-    //        var elapsedMs = watch.ElapsedMilliseconds;
-    //        Console.WriteLine(elapsedMs);
-    //    }
+        //        for (int i = 0; i < nums.Length; i++)
+        //        {
+        //            for (int j = 0; j < nums.Length; j++)
+        //            {
+        //                if (i == j)
+        //                {
+        //                    continue;
+        //                }
 
-    //    public int[] TwoSum(int[] nums, int target)
-    //    {
-    //        //Input:    nums = [2, 7, 11, 15, 7], target = 14
-    //        //Output:          [0,1]
+        //                if (nums[i] + nums[j] == target)
+        //                {
+        //                    var result = new[] { i, j };
+        //                    //var result = new int[] { i, j };
 
-    //        for (int i = 0; i < nums.Length; i++)
-    //        {
-    //            for (int j = 0; j < nums.Length; j++)
-    //            {
-    //                if (i == j)
-    //                {
-    //                    continue;
-    //                }
-
-    //                if (nums[i] + nums[j] == target)
-    //                {
-    //                    var result = new[] { i, j };
-    //                    //var result = new int[] { i, j };
-
-    //                    return result;
-    //                }
-    //            }
-    //        }
-    //        return new int[] { 0, 0 };
-    //    }
-    //}
-}
+        //                    return result;
+        //                }
+        //            }
+        //        }
+        //        return new int[] { 0, 0 };
+        //    }
+        //}
+    }
 
 
 
