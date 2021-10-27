@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CmcFqQLIgaNRqjeX80MCv/j83608xr4dEkQFT5dZlZOkqBOe88J8y8VNEu5l0NmMtxrOSp6wHV5mvACNHACJrw==",
+  "dgSpecHash": "pwEURq6fc7aEWSjsdq14EfSq+mkVz4LAuCHuIHMl0qLl6NTf8XS6xqoq+oClijfWmPH++fc09YODNXAsUOgIKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Primal Shade\\source\\repos\\LeetCode_Eozten\\7_Reverse_Integer\\7_Reverse_Integer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Primal Shade\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,4 +10,4 @@ C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\n
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\netcoreapp3.1\7_Reverse_Integer.dll
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\netcoreapp3.1\7_Reverse_Integer.pdb
 C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\netcoreapp3.1\7_Reverse_Integer.genruntimeconfig.cache
-C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\netcoreapp3.1\7_Reverse_Integer.csprojAssemblyReference.cache
+C:\Users\Primal Shade\source\repos\LeetCode_Eozten\7_Reverse_Integer\obj\Debug\netcoreapp3.1\7_Reverse_Integer.csproj.AssemblyReference.cache
