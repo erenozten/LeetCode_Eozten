@@ -16,9 +16,11 @@ Example 2:
 
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
+
+You may see this problem at Amazon, Autodesk, Vmware, Adobe, Paypal, Snap, Intercom, Tesla, Rubrik, Segment, Automattic, Grammarly, Intel, and Coupa.
+https://leetcode.com/problems/two-sum/
  */
 
-// You may see this problem at Amazon, Autodesk, Vmware, Adobe, Paypal, Snap, Intercom, Tesla, Rubrik, Segment, Automattic, Grammarly, Intel, and Coupa.
 
 
 
@@ -26,8 +28,7 @@ Output: [1,2]
 
 
 
-// https://leetcode.com/problems/two-sum/
-
+/*
 // Yeni Çözüm
 // Sen mi yaptın: Evet
 // Çözüm başarılı mı: Evet
@@ -37,7 +38,6 @@ Output: [1,2]
 // Runtime: 220 ms, faster than 79.02% of C# online submissions for Two Sum.
 // Memory Usage: 42.4 MB, less than 8.36% of C# online submissions for Two Sum.
 
-/*
 using System;
 namespace Sol_1_TwoSum
 {
@@ -81,6 +81,9 @@ namespace Sol_1_TwoSum
 
 
 
+
+
+/*
 // Yeni Çözüm
 // Sen mi yaptın: Evet
 // Çözüm başarılı mı: Evet
@@ -115,16 +118,58 @@ namespace Sol_1_TwoSum
         }
     }
 }
+*/
+
+
+
+// Yeni Çözüm
+// Sen mi yaptın: Hayır
+// Çözüm başarılı mı: Evet
+// Yardım alarak mı yaptın: -
+// Çözüm performanslı mı çalışıyor: Biraz (sitede yazan sonuca göre: diğerlerinden %90 daha hızlı)
+// Notlar: Kodu yazan kişi LINQ metodu kullanmış - nums.Count() - Fakat bunu kullanmak yerine
+// for döngüsü içinde nums.Length yazarsak performans %1,5 kadar artıyor.
+// Görünüşe göre LINQ kullanılmasaydı daha performanslı bir sonuç alınacaktı.
+// Kodu yazan kişinin kodu aşağıda, onun altında ise benim modifiye ettiğim, %1.5 verimlilik
+// sağlayan kod var.
+
+
+//public class Solution
+//{
+//    public int[] TwoSum(int[] nums, int target)
+//    {
+//        var count = nums.Count();
+//        for (var i = 0; i < count; i++)
+//        for (var j = i + 1; j < count; j++)
+//            if (nums[i] + nums[j] == target)
+//                return new int[] { i, j };
+//        return null;
+//    }
+//    // T: O(n^2), where n is count of nums.
+//    // S: O(1), constant space.
+//}
+
+
+
+public class Solution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        // aşağıda görüldüğü gibi LINQ kullanılmadan for döngüsü içinde Length (veya Count) bilgisi alındı.
+        for (var i = 0; i < nums.Length; i++)
+        for (var j = i + 1; j < nums.Length; j++)
+            if (nums[i] + nums[j] == target)
+                return new int[] { i, j };
+        return null;
+    }
+    // T: O(n^2), where n is count of nums.
+    // S: O(1), constant space.
+}
 
 
 
 
 
-
-
-
-
-// https://leetcode.com/problems/two-sum/
 
 // Yeni Çözüm
 // Sen mi yaptın: Hayır
