@@ -28,3 +28,25 @@ Explanation: Reads 01 from right to left.Therefore it is not a palindrome.
 
 */
 
+
+sayı pozitif olmalı. negatif olursa sayının başında "-" olacağı için palindrom olmaz.,
+
+public class Solution
+{
+    public static void Main()
+    {
+        Console.WriteLine("Quest_9_ PalindromeNumber \n");
+        Solution solution = new Solution();
+
+        int number = 12321;
+        var result = solution.IsPalindrome(number);
+    }
+
+    public bool IsPalindrome(int number)
+    {
+
+        return false;
+    }
+}
+
+
