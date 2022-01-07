@@ -144,3 +144,44 @@ Explanation: Reads 01 from right to left.Therefore it is not a palindrome.
 
 
 
+
+public class Solution
+{
+    public static void Main()
+    {
+        var numberAsText = "161";
+
+        Solution solution = new Solution();
+        var result = solution.IsPolindrome(numberAsText);
+    }
+
+    public bool IsPolindrome(string numberAsText)
+    {
+        if (string.IsNullOrEmpty(numberAsText))
+        {
+            return false;
+        }
+
+        var remainder = 0;
+        var olusanYeniSayi = 0;
+
+        var numberAsInt = Convert.ToInt32(numberAsText);
+
+        var islemYapilmamisSayi = numberAsInt;
+
+        while (numberAsInt > 0)
+        {
+            remainder = numberAsInt % 10;
+            numberAsInt = numberAsInt / 10;
+            olusanYeniSayi = olusanYeniSayi * 10 + remainder;
+        }
+
+        if (olusanYeniSayi == islemYapilmamisSayi)
+        {
+            return true;
+        }
+
+        return false;
+    }
+}
+
