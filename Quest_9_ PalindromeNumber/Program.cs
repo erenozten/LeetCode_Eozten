@@ -94,5 +94,53 @@ Explanation: Reads 01 from right to left.Therefore it is not a palindrome.
 //    }
 //}
 
+/*
+
+    // Düşünelim ne yapıldığını:
+
+        //reversedNumber değişkenine, gelen sayıyı olduğu gibi yazdık. Çünkü işlemler tamamlandığında, reversedNumber ile number YİNE birbirine eşit olmalı ki polindrome olayı doğru olmuş olsun. Birbirine eşit değilse: polindrome değildir sonucu çıkar.
+
+    
+    örnek sayı = 1024
+
+    1 - Bu sayıyı 10 a bölüp kalanı buluyoruz. Bunu remainder değişkenine atıyoruz. yaptığımız işlem şu: remainder = number % 10;
+    2 - 1024 sayısını 10 a bölüp kaça eşitse o sayıyı alıyoruz (102). yaptığımız işlem şu: number = number / 10;
+    3 - kalanı 10 la çarpıp sonraki kalanı toplayıp değişkenen atıyoruz. (10 la çarpa çarpa basamakları elde etmiş oluyoruz. Birler onlar yüzler diye gidiyor. 10'la çarpılan bu sayıya da kalanı ekledikçe sayıyı tersten yazmış oluyor(muşu)z. Düşün.
+
+*/
+
+
+/*
+ 
+    number = 1024 
+
+    while döngüsüne gir:
+    
+    10 a böl kalanı al:    sonuç 4
+    10 a böl, çıkan sonucu al. Çıkan sonuç 102. Bu sonucu metot içine gelen orijinal sayıya eşitle. yani:
+    number = 102
+
+    burda şimdi bi X sayısı var ve başlangıç değeri sıfır:
+
+    x = x * 10 + kalan
+    x = x * 10 + 4
+
+    başlangıç değeri sıfır olduğuna göre ilk iterasyon sonunda:
+    x = 4 
+    sonucu çıkar.
+
+    ikinci iterasyon:
+
+    number 1024 e eşitti. Şimdi 102 ye eşit.
+    (yani 10 a bölümünden 2 kalır)
+
+    x = x * 10 + kalan
+    x = 4 * 10 + 2
+    x = 42
+
+    Görüldüğü gibi sayı tersten yazılmaya başlanmış oldu... Bu şekilde gidiyor.
+
+ */
+
 
 
