@@ -785,39 +785,3 @@ namespace Quest_1_TwoSum
     }
 }
 
-
-//sil
-
-///// <summary>
-///// Using a Dictionary: Time Complexity: O(n), Space complexity: O(n)
-///// </summary>
-///// <param name="nums"></param>
-///// <param name="target"></param>
-///// <returns>integer array of indices</returns>
-//private static int[] TwoSumOptimized(int[] nums, int target)
-//{
-//    //Declarations
-//    int arrayLength = nums.Length;
-//    Dictionary<int, int> resultDictionary = new();
-//    //Validations
-//    if (nums == null || arrayLength < 2)
-//    {
-//        return Array.Empty<int>();
-//    }
-//    //Logic
-//    for (int i = 0; i < arrayLength; i++)
-//    {
-//        int firstNumber = nums[i];
-//        int secondNumber = target - firstNumber;
-//        if (resultDictionary.TryGetValue(secondNumber, out int index))
-//        {
-//            return new[] {
-//                index,
-//                i
-//            };
-//        }
-//        //resultDictionary.Add(firstNumber, i);
-//        resultDictionary[firstNumber] = i;
-//    }
-//    return Array.Empty<int>(); ;
-//}
