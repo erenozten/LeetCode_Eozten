@@ -1,4 +1,11 @@
-﻿
+﻿// Çözümü inceledikten sonra kendim yapabildim. Ama unutulabilecek bir çözümü var. Tekrar çözülmeli.
+
+/*
+Runtime: 95 ms, faster than 11.11% of C# online submissions for Palindrome Number.
+Memory Usage: 28.3 MB, less than 85.82% of C# online submissions for Palindrome Number.
+*/
+
+
 /*
 
 https://leetcode.com/problems/palindrome-number/
@@ -143,40 +150,128 @@ Explanation: Reads 01 from right to left.Therefore it is not a palindrome.
  */
 
 
+// Çözümü inceledikten sonra kendi başıma yapabildim. Ama tekrar edilmesi gerekiyor. Unutulabilinecek bir çözüm.
+// Değişken isimlerini anlaşılırlığı kolaylaştırabilmek için uzunca yazdım.
+// ama leetcode'da parametre olarak int istiyor. Biz çözümde string kullandık. Aşağıda string li çözüm var. bi aşağıda da int li çözüm:
+
+
+//public class Solution
+//{
+//    public static void Main()
+//    {
+//        var numberAsText = "161";
+
+//        Solution solution = new Solution();
+//        var result = solution.IsPalindrome(numberAsText);
+//    }
+
+//    public bool IsPalindrome(string numberAsText)
+//    {
+//        if (string.IsNullOrEmpty(numberAsText))
+//        {
+//            return false;
+//        }
+
+//        var remainder = 0;
+//        var olusanYeniSayi = 0;
+
+//        var numberAsInt = Convert.ToInt32(numberAsText);
+
+//        var islemYapilmamisSayi = numberAsInt;
+
+//        while (numberAsInt > 0)
+//        {
+//            remainder = numberAsInt % 10;
+//            numberAsInt = numberAsInt / 10;
+//            olusanYeniSayi = olusanYeniSayi * 10 + remainder;
+//        }
+
+//        if (olusanYeniSayi == islemYapilmamisSayi)
+//        {
+//            return true;
+//        }
+
+//        return false;
+//    }
+//}
+
+
+/*
+Runtime: 95 ms, faster than 11.11% of C# online submissions for Palindrome Number.
+Memory Usage: 28.3 MB, less than 85.82% of C# online submissions for Palindrome Number.
+*/
+
+// parametresi int olan çözüm
+
+//public class Solution
+//{
+//    public static void Main()
+//    {
+//        var number = 161;
+
+//        Solution solution = new Solution();
+//        var result = solution.IsPalindrome(number);
+//    }
+
+//    public bool IsPalindrome(int number)
+//    {
+//        if (number < 0)
+//        {
+//            return false;
+//        }
+
+//        var remainder = 0;
+//        var olusanYeniSayi = 0;
+
+//        var islemYapilmamisSayi = number;
+
+//        while (number > 0)
+//        {
+//            remainder = number % 10;
+//            number = number / 10;
+//            olusanYeniSayi = olusanYeniSayi * 10 + remainder;
+//        }
+
+//        if (olusanYeniSayi == islemYapilmamisSayi)
+//        {
+//            return true;
+//        }
+
+//        return false;
+//    }
+//}
 
 
 public class Solution
 {
     public static void Main()
     {
-        var numberAsText = "161";
+        var number = 161;
 
         Solution solution = new Solution();
-        var result = solution.IsPolindrome(numberAsText);
+        var result = solution.IsPalindrome(number);
     }
 
-    public bool IsPolindrome(string numberAsText)
+    public bool IsPalindrome(int number)
     {
-        if (string.IsNullOrEmpty(numberAsText))
+        if (number < 0)
         {
             return false;
         }
 
         var remainder = 0;
-        var olusanYeniSayi = 0;
+        var reversedNumber = 0;
 
-        var numberAsInt = Convert.ToInt32(numberAsText);
+        var nonEditedNumber = number;
 
-        var islemYapilmamisSayi = numberAsInt;
-
-        while (numberAsInt > 0)
+        while (number > 0)
         {
-            remainder = numberAsInt % 10;
-            numberAsInt = numberAsInt / 10;
-            olusanYeniSayi = olusanYeniSayi * 10 + remainder;
+            remainder = number % 10;
+            number = number / 10;
+            reversedNumber = reversedNumber * 10 + remainder;
         }
 
-        if (olusanYeniSayi == islemYapilmamisSayi)
+        if (reversedNumber == nonEditedNumber)
         {
             return true;
         }
@@ -184,4 +279,3 @@ public class Solution
         return false;
     }
 }
-

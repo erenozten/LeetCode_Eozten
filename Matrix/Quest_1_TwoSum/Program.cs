@@ -725,7 +725,7 @@ namespace Sol_1_TwoSum
 
 //                if (dictionary.TryGetValue(secondNumber, out int ikinciSayininIndexi))
 //                {
-                      // aşağıdaki sıralama şu olmalı galiba: ikinciSayininIndexi, i (boylece örneğin [4,0] döneceğine [0,4] dönmüş oluyorsun. Çünkü "i" değeri şu anki iterasyonun indexini gösteriyor. Bu sayı doğal olarak ikinciSayininIndexi değerinden büyük olur (tam düşünmedim ama öyle olmalı). O yüzden sıralama böyle olmalı. Tersini yazarsan tam doğru olmaz. Çünkü [4,0] döner. İstenen sonuçlar ise hep önce küçük sayı, sonra büyük sayı şeklinde.
+// aşağıdaki sıralama şu olmalı galiba: ikinciSayininIndexi, i (boylece örneğin [4,0] döneceğine [0,4] dönmüş oluyorsun. Çünkü "i" değeri şu anki iterasyonun indexini gösteriyor. Bu sayı doğal olarak ikinciSayininIndexi değerinden büyük olur (tam düşünmedim ama öyle olmalı). O yüzden sıralama böyle olmalı. Tersini yazarsan tam doğru olmaz. Çünkü [4,0] döner. İstenen sonuçlar ise hep önce küçük sayı, sonra büyük sayı şeklinde.
 //                    return new int[] { ikinciSayininIndexi, i };
 //                }
 
@@ -774,7 +774,7 @@ namespace Quest_1_TwoSum
 
                 if (dictionary.TryGetValue(secondNumber, out int secondNumberIndex))
                 {
-                    return new int[] { secondNumberIndex, i};
+                    return new int[] { secondNumberIndex, i };
                 }
 
                 dictionary[firstNumber] = i;
@@ -785,3 +785,27 @@ namespace Quest_1_TwoSum
     }
 }
 
+
+
+//public class Solution
+//{
+//    public static void Main()
+//    {
+//        int[] array = new int[4] { 1, 2, 3, 4 };
+//        Solution solution = new Solution();
+//        var result = solution.TwoSum(array, 7);
+//    }
+
+//    public int[] TwoSum(int[] array, int target)
+//    {
+//        Dictionary<int, int> dictionary = new();
+
+//        for (int i = 0; i < array.Length; i++)
+//        {
+
+//        }
+
+
+//        return null;
+//    }
+//}
