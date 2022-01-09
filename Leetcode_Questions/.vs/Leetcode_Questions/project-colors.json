@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ff009b42-d6eb-40c8-bbd9-3caa8207c67a": {
+      "ProjectGuid": "ff009b42-d6eb-40c8-bbd9-3caa8207c67a",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 0
+    },
+    "995a2577-7c8c-484b-8fde-54c6e3bc7271": {
+      "ProjectGuid": "995a2577-7c8c-484b-8fde-54c6e3bc7271",
+      "DisplayName": "Quest_1_TwoSum",
+      "ColorIndex": 1
+    },
+    "de7b291a-8e76-400b-b74c-398b791172ee": {
+      "ProjectGuid": "de7b291a-8e76-400b-b74c-398b791172ee",
+      "DisplayName": "Quest_13_RomanToInteger",
+      "ColorIndex": 2
+    },
+    "060875ca-2f93-4ffc-9769-4082a3f23138": {
+      "ProjectGuid": "060875ca-2f93-4ffc-9769-4082a3f23138",
+      "DisplayName": "Quest_14_Longest_Common_Prefix",
+      "ColorIndex": 3
+    },
+    "7b2486ba-426f-48f0-afd4-964e4096a0ea": {
+      "ProjectGuid": "7b2486ba-426f-48f0-afd4-964e4096a0ea",
+      "DisplayName": "Quest_20_Valid_Parentheses",
+      "ColorIndex": 4
+    },
+    "26fb727a-2d13-4a11-87b7-6ab38e182ad3": {
+      "ProjectGuid": "26fb727a-2d13-4a11-87b7-6ab38e182ad3",
+      "DisplayName": "Quest_9_ PalindromeNumber",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

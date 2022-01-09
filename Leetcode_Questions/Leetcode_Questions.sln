@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_1_TwoSum", "Quest_1_TwoSum\Quest_1_TwoSum.csproj", "{995A2577-7C8C-484B-8FDE-54C6E3BC7271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_13_RomanToInteger", "Quest_13_RomanToInteger\Quest_13_RomanToInteger.csproj", "{DE7B291A-8E76-400B-B74C-398B791172EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_14_Longest_Common_Prefix", "Quest_14_Longest_Common_Prefix\Quest_14_Longest_Common_Prefix.csproj", "{060875CA-2F93-4FFC-9769-4082A3F23138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_20_Valid_Parentheses", "Quest_20_Valid_Parentheses\Quest_20_Valid_Parentheses.csproj", "{7B2486BA-426F-48F0-AFD4-964E4096A0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_9_ PalindromeNumber", "Quest_9_ PalindromeNumber\Quest_9_ PalindromeNumber.csproj", "{26FB727A-2D13-4A11-87B7-6AB38E182AD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995A2577-7C8C-484B-8FDE-54C6E3BC7271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995A2577-7C8C-484B-8FDE-54C6E3BC7271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995A2577-7C8C-484B-8FDE-54C6E3BC7271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995A2577-7C8C-484B-8FDE-54C6E3BC7271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7B291A-8E76-400B-B74C-398B791172EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7B291A-8E76-400B-B74C-398B791172EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7B291A-8E76-400B-B74C-398B791172EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7B291A-8E76-400B-B74C-398B791172EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060875CA-2F93-4FFC-9769-4082A3F23138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060875CA-2F93-4FFC-9769-4082A3F23138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060875CA-2F93-4FFC-9769-4082A3F23138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060875CA-2F93-4FFC-9769-4082A3F23138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2486BA-426F-48F0-AFD4-964E4096A0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2486BA-426F-48F0-AFD4-964E4096A0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2486BA-426F-48F0-AFD4-964E4096A0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2486BA-426F-48F0-AFD4-964E4096A0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B545B6-1F86-4926-8CE1-C1A78F26047C}
+	EndGlobalSection
+EndGlobal
