@@ -1,4 +1,7 @@
-﻿namespace Quest_1_TwoSum
+﻿using System;
+using System.Collections.Generic;
+
+namespace Quest_1_TwoSum
 {
     public class Solution
     {
