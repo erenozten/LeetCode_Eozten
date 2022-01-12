@@ -1,52 +1,55 @@
 ﻿
 public class Solution
 {
-    public static void Main()
-    {
-        //var input = "";
-        var input = "()[]{}[";
-        //var input = "({[]})";
-
-        Solution solution = new Solution();
-        var result = solution.IsValid(input);
-    }
-
     public bool IsValid(string input)
     {
-        // Get ready initial state (enforce element type)
-        var stack = new Stack<char>();
+        Stack<char> stack = new();
 
-        // Evaluate each character for potential mismatch 
-        foreach (char c in input)
+        if (input.Length == 1)
         {
-            // Push closing round bracket onto the stack
-            if (c == '(')
+            return false;
+        }
+
+        for (int i = 0; i < input.Length; i++)
+        {
+            if (input[i] == '(')
             {
                 stack.Push(')');
                 continue;
             }
-            // Push closing curly bracket onto the stack
-            if (c == '{')
+
+            if (input[i] == '{')
             {
                 stack.Push('}');
                 continue;
             }
 
-            // Push closing square bracket onto the stack
-            if (c == '[')
+            if (input[i] == '[')
             {
                 stack.Push(']');
                 continue;
             }
 
-            // Look out for imbalanced strings or mismatches
-            if (c != stack.Pop())
+            if (stack.Count == 0)
+            {
+                return false;
+            }
+
+            var pop = stack.Pop();
+
+            if (pop != input[i])
             {
                 return false;
             }
         }
 
-        // Empty stack means string is valid and invalid otherwise
-        return stack.Count == 0;
+        if (stack.Count == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
