@@ -30,7 +30,12 @@
       "ProjectGuid": "26fb727a-2d13-4a11-87b7-6ab38e182ad3",
       "DisplayName": "Quest_9_ PalindromeNumber",
       "ColorIndex": 5
+    },
+    "8dbfe00e-4df9-4f75-826b-1381a46bb3a4": {
+      "ProjectGuid": "8dbfe00e-4df9-4f75-826b-1381a46bb3a4",
+      "DisplayName": "Quest_21_Merge_Two_Sorted_Lists",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
