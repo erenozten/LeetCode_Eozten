@@ -35,7 +35,17 @@
       "ProjectGuid": "8dbfe00e-4df9-4f75-826b-1381a46bb3a4",
       "DisplayName": "Quest_21_Merge_Two_Sorted_Lists",
       "ColorIndex": 6
+    },
+    "58c85d84-c067-4318-a744-e9ab4c8af85e": {
+      "ProjectGuid": "58c85d84-c067-4318-a744-e9ab4c8af85e",
+      "DisplayName": "Quest_27_Remove_Element",
+      "ColorIndex": 7
+    },
+    "9368a135-523b-4bdc-bdf9-d253fc11013c": {
+      "ProjectGuid": "9368a135-523b-4bdc-bdf9-d253fc11013c",
+      "DisplayName": "Quest_28_Implement_strStr",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }
