@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_1_TwoSum", "Quest_1_TwoSum\Quest_1_TwoSum.csproj", "{995A2577-7C8C-484B-8FDE-54C6E3BC7271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_1_TwoSum", "Quest_1_TwoSum\Quest_1_TwoSum.csproj", "{995A2577-7C8C-484B-8FDE-54C6E3BC7271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_13_RomanToInteger", "Quest_13_RomanToInteger\Quest_13_RomanToInteger.csproj", "{DE7B291A-8E76-400B-B74C-398B791172EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_13_RomanToInteger", "Quest_13_RomanToInteger\Quest_13_RomanToInteger.csproj", "{DE7B291A-8E76-400B-B74C-398B791172EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_14_Longest_Common_Prefix", "Quest_14_Longest_Common_Prefix\Quest_14_Longest_Common_Prefix.csproj", "{060875CA-2F93-4FFC-9769-4082A3F23138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_14_Longest_Common_Prefix", "Quest_14_Longest_Common_Prefix\Quest_14_Longest_Common_Prefix.csproj", "{060875CA-2F93-4FFC-9769-4082A3F23138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_20_Valid_Parentheses", "Quest_20_Valid_Parentheses\Quest_20_Valid_Parentheses.csproj", "{7B2486BA-426F-48F0-AFD4-964E4096A0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_20_Valid_Parentheses", "Quest_20_Valid_Parentheses\Quest_20_Valid_Parentheses.csproj", "{7B2486BA-426F-48F0-AFD4-964E4096A0EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_9_ PalindromeNumber", "Quest_9_ PalindromeNumber\Quest_9_ PalindromeNumber.csproj", "{26FB727A-2D13-4A11-87B7-6AB38E182AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_9_ PalindromeNumber", "Quest_9_ PalindromeNumber\Quest_9_ PalindromeNumber.csproj", "{26FB727A-2D13-4A11-87B7-6AB38E182AD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_21_Merge_Two_Sorted_Lists", "Quest_21_Merge_Two_Sorted_Lists\Quest_21_Merge_Two_Sorted_Lists.csproj", "{8DBFE00E-4DF9-4F75-826B-1381A46BB3A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quest_27_Remove_Element", "Quest_27_Remove_Element\Quest_27_Remove_Element.csproj", "{58C85D84-C067-4318-A744-E9AB4C8AF85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest_28_Implement_strStr", "Quest_28_Implement_strStr\Quest_28_Implement_strStr.csproj", "{9368A135-523B-4BDC-BDF9-D253FC11013C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26FB727A-2D13-4A11-87B7-6AB38E182AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBFE00E-4DF9-4F75-826B-1381A46BB3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBFE00E-4DF9-4F75-826B-1381A46BB3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBFE00E-4DF9-4F75-826B-1381A46BB3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBFE00E-4DF9-4F75-826B-1381A46BB3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C85D84-C067-4318-A744-E9AB4C8AF85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C85D84-C067-4318-A744-E9AB4C8AF85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C85D84-C067-4318-A744-E9AB4C8AF85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C85D84-C067-4318-A744-E9AB4C8AF85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9368A135-523B-4BDC-BDF9-D253FC11013C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9368A135-523B-4BDC-BDF9-D253FC11013C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9368A135-523B-4BDC-BDF9-D253FC11013C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9368A135-523B-4BDC-BDF9-D253FC11013C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
